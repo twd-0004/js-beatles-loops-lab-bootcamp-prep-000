@@ -6,4 +6,9 @@ function theBeatlesPlay(musicians, instruments) {
   return empArray
 }
 
-function johnLennonFacts
+function johnLennonFacts(facts) {
+  while (i < facts.length) {
+    facts[i] += "!!!";
+    i++;
+  }
+}
